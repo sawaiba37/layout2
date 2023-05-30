@@ -1,0 +1,308 @@
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+html,body{
+    width:100%;
+    height:100%;
+    background-color: rgb(20, 20, 32);
+
+}
+.container{
+    padding: 5px;
+}
+.header{
+    display:flex;
+    justify-content: space-evenly;
+    height:50px;
+    padding:5px;
+    background-color: black;
+
+}
+.top-logo{
+   color:white;
+   font-weight: bold;
+   font-size: 30;
+    
+    
+
+}
+.navigation{
+   display:flex;
+   
+}
+nav{
+    color:white;
+    padding:20px;
+  
+    
+    }
+    nav ul{
+    
+    display:flex;
+    margin-left:10px;
+    
+    }
+    nav ul li{
+    list-style-type:none;
+    padding-left:20px;
+    margin-left:20px;
+    height:20px;
+    line-height:10px;
+    
+    transition: transform .0.5s;
+    }
+    nav ul li:hover{
+        transform:scale(1.25); 
+        
+    }
+    nav ul li a{
+    
+    color:white;
+    text-decoration:none;
+    
+    }
+    nav ul li a:hover{
+        color:blue;
+      
+        
+    }
+
+.top-btn{
+ 
+    display:flex;
+
+  
+  
+}
+.top-btn .btn1{
+  
+    border:transparent;
+    color:white;
+    margin:5px;
+    padding:10px;
+    
+}
+.top-btn .btn1:hover{
+    color:blue;
+}
+.top-btn .btn2{
+    background-color: rgb(25, 118, 224);
+    padding:5px;
+    margin: 10px;
+}
+.top-btn .btn2:hover{
+    color:white
+}
+.content{
+    margin-top:20px
+}
+.text-block{
+    text-align: center;
+   
+    
+}
+h5{
+    color:blue;
+
+}
+h2{
+    font-weight: bold;
+    font-size: 50;
+    color: white;
+}
+p{
+    color:white;
+    
+}
+.bottom-btn{
+    display:flex;
+    justify-content: center;
+    margin:15px;
+}
+.bottom-btn .btn1{
+    background-color: rgb(25, 118, 224);
+    padding:10px;
+    margin: 5px;
+    border:1px solid;
+    color:white;
+    width:80px;
+    height:40px;
+    line-height:20px;
+    text-align: center;
+    transition: transform .0.5s;
+}
+.bottom-btn .btn1:hover{
+    transform:scale(1.15);
+    color:blue;
+   
+}
+.bottom-btn .btn2{
+    color:white;
+    padding:10px;
+    margin: 5px;
+    border:transparent;
+    border:1px solid;
+    width:80px;
+    height:40px;
+    line-height:20px;
+    text-align: center;
+    transition: transform .0.5s;
+}
+.bottom-btn .btn2:hover{
+    transform:scale(1.15);
+    color:blue;
+}
+.content-card{
+    margin:0px,auto;
+    margin-top:10px;
+    
+
+}
+.content-card .card{
+    display:flex;
+    justify-content:space-evenly;
+   
+    padding:0px;
+    
+}
+.card1{
+    width:350px;
+    height:250px;
+    background-color:white;
+    margin:6px;
+    border:transparent;
+    padding:20px;
+    
+    }
+    .card1 img{
+        border:transparent;
+        width:120px;
+        height:50px;
+        margin-top:20px;
+        
+        
+        
+        
+        }
+        .card1 h2{
+            border-bottom:2px solid blue;
+            width:160px;
+        
+        
+            color:black;
+            font-size:20;
+            margin-top:20px;
+        }
+        .card1 p{
+            color:black;
+            font-size:15;
+            margin-top:10px;
+        }
+    .card2{
+        width:350px;
+        height:250px;
+        background-color:white;
+        margin:6px;
+        border:transparent;
+        padding:20px;
+    
+        }
+        .card2 img{
+            border:transparent;
+            width:120px;
+            height:50px;
+            margin-top:20px;
+            
+            }
+            .card2 h2{
+                border-bottom:2px solid blue;
+                width:160px;
+                color:black;
+                font-size:20;
+                margin-top:20px;
+                
+            }
+            .card2 p{
+                color:black;
+                font-size:15;
+                margin-top:10px;
+            }
+        .card3{
+
+    
+            width:350px;
+            height:250px;
+            background-color:white;
+            margin:6px;
+            border:transparent;
+            padding:20px;
+            }
+            .card3 img{
+                border:transparent;
+                width:120px;
+                height:50px;
+                margin-top:20px;
+                
+                }
+                .card3 h2{
+                    border-bottom:2px solid blue;
+            width:160px;
+                    color:black;
+                    font-size:20;
+                    margin-top:20px;
+                }
+                .card3 p{
+                    color:black;
+                    font-size:15;
+                    margin-top:10px;
+                }
+
+                ::-webkit-scrollbar{
+                    display:none;
+               
+                }
+           @media only screen and (max-width:500px){
+                
+            
+                .header{
+                    flex-wrap:wrap;
+                    height:30%;
+                    
+                }
+                nav{
+                    
+                    padding:10px;
+                  
+                    
+                    }
+                nav ul{
+                    margin-left:-6px;
+                }
+                .content-card .card{
+                    flex-wrap:wrap;
+                }
+            }
+            @media only screen and (max-width:400px){
+                
+            
+                .header{
+                    flex-wrap:wrap;
+                    height:30%;
+                    
+                }
+                nav{
+                    
+                    padding:10px;
+                  
+                    
+                    }
+                nav ul{
+                    margin-left:-6px;
+                }
+                .content-card .card{
+                    flex-wrap:wrap;
+                }
+            }
